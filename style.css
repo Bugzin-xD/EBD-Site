@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -6,33 +7,17 @@ html, body {
 }
 
 body {
-    /* REMOVA OU COMENTE ESTAS LINHAS: */
-    /* background-image: url(background.png); */
-    /* background-size: cover; */
-    /* background-position: center; */
-    /* background-attachment: fixed; */
-    
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     overflow-y: auto;
-    position: relative; /* Adicione isso para garantir o contexto de empilhamento */
-}
-
-/* NOVO: Estilo para o canvas do fundo de ondas */
-#waveCanvas {
-    display: block;
-    position: fixed; /* Fixa o canvas na tela */
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1; /* Coloca o canvas atrás de todo o conteúdo */
-    /* A cor de fundo será desenhada no JS para um gradiente, então não defina aqui */
 }
 
 .top {
-    background-color: blue;
+    background-color: rgb (#010e94);
     width: 100%;
     height: 60px;
     display: flex;
@@ -45,12 +30,12 @@ body {
     flex-shrink: 0;
     gap: 30px;
     padding-left: 20px;
-    z-index: 10; /* Já está bom */
+    z-index: 10;
 }
 
 a {
     width: fit-content;
-    color: aliceblue; /* Mantenha ou ajuste para contraste */
+    color: aliceblue;
     font-family: cursive;
     text-decoration: none;
 }
@@ -66,12 +51,10 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: relative; /* Garante que o conteúdo fique acima do canvas */
-    z-index: 1; /* Garante que o conteúdo fique acima do canvas */
 }
 
 .baxo {
-    background-color: blue;
+    background-color: rgb (#010e94);
     width: 100%;
     height: 60px;
     border-radius: 5px 5px 0px 0px;
@@ -84,11 +67,11 @@ a {
     flex-shrink: 0;
     gap: 30px;
     padding-left: 20px;
-    z-index: 10; /* Já está bom */
+    z-index: 10;
 }
 
 .name {
-    color: aliceblue; /* Mantenha ou ajuste para contraste */
+    color: aliceblue;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     cursor: default;
@@ -98,21 +81,21 @@ a {
     font-size: 50px;
     cursor: default;
     font-family: 'Roboto', sans-serif;
-    color: white; /* SUGERIDO: Mude para branco para melhor contraste */
+    color: blue;
 }
 
 .dois {
     font-size: 50px;
     cursor: default;
     font-family: 'Roboto', sans-serif;
-    color: white; /* SUGERIDO: Mude para branco para melhor contraste */
+    color: black;
 }
 
 .tres {
     font-size: 50px;
     cursor: default;
     font-family: 'Roboto', sans-serif;
-    color: aliceblue; /* SUGERIDO: Mude para um branco ou azul claro para melhor contraste */
+    color: rgb(0, 14, 143);
 }
 
 .geral {
@@ -125,7 +108,7 @@ a {
     margin: 0 auto;
     text-align: center;
     position: relative;
-    z-index: 1; /* Já está bom */
+    z-index: 1;
     padding: 20px;
     box-sizing: border-box;
     height: 100%;
