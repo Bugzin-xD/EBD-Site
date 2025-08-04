@@ -140,7 +140,9 @@ a {
     border-radius: 7px;
     background-color: rgb(5, 145, 245);
     padding: 15px 20px;
+    transition: all 0.3s ease;
 }
+
 
 
 
