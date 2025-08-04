@@ -137,10 +137,11 @@ a {
 .acess {
     color: aliceblue;
     font-family: 'Trebuchet MS', sans-serif;
-    border-radius: 4px;
+    border-radius: 7px;
     background-color: rgb(5, 145, 245);
-    size: 200px;
+    padding: 50px 50px;
 }
+
 
 
 
