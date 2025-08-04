@@ -124,7 +124,7 @@ a {
 }
 
 .zap {
-    cursor: pointer;
+    cursor: default;
     color: rgb(39, 136, 0);
     font-family: 'Trebuchet MS', sans-serif;
 }
@@ -137,8 +137,9 @@ a {
 .acess {
     color: aliceblue;
     font-family: 'Trebuchet MS', sans-serif;
-    border: 100px;
-    border-radius: 3px;
+    border-radius: 4px;
     background-color: rgb(5, 145, 245);
+    background-size: 50px;
 }
+
 
