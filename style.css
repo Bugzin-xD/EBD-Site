@@ -13,8 +13,24 @@ body {
     background-attachment: fixed;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-    overflow-y: auto;
+    min-height: 100vh; 
+    scrollbar-color: transparent transparent;
+    scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 20px;
+  border: 3px transparent;
 }
 
 .top {
@@ -141,6 +157,7 @@ a {
     background-color: rgb(5, 145, 245);
     padding: 15px 20px;
 }
+
 
 
 
