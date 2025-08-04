@@ -28,7 +28,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: transparent;
+  background-color: rgb(5, 215, 252);
   border-radius: 20px;
   border: 3px transparent;
 }
@@ -157,6 +157,7 @@ a {
     background-color: rgb(5, 145, 245);
     padding: 15px 20px;
 }
+
 
 
 
