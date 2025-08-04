@@ -137,7 +137,8 @@ a {
 .acess {
     color: aliceblue;
     font-family: 'Trebuchet MS', sans-serif;
-    border: 20px;
+    border: 100px;
     border-radius: 3px;
     background-color: rgb(5, 145, 245);
 }
+
