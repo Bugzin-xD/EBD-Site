@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh; 
-    scrollbar-color: transparent transparent;
+    scrollbar-color: rgb(5, 215, 252);
     scrollbar-width: thin;
 }
 
@@ -23,7 +23,7 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: transparent;
+  background: rgb(5, 215, 252);
   border-radius: 10px;
 }
 
@@ -157,6 +157,7 @@ a {
     background-color: rgb(5, 145, 245);
     padding: 15px 20px;
 }
+
 
 
 
