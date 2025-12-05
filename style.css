@@ -52,7 +52,7 @@ body {
 
 a {
     width: fit-content;
-    color: aliceblue;
+    color: black;
     font-family: cursive;
     text-decoration: none;
     transition: ease-in-out 0.3s;
@@ -162,6 +162,7 @@ a:hover {
     background-color: rgb(5, 145, 245);
     padding: 15px 20px;
 }
+
 
 
 
